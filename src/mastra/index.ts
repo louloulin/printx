@@ -7,7 +7,8 @@ import {
   companyEvaluationAgent,
   knowledgeAgent,
   budgetCalculationAgent,
-  webSearchAgent
+  webSearchAgent,
+  mockAgent
 } from './agents';
 import { renovationNetwork } from './network';
 
@@ -20,7 +21,8 @@ export const mastra = new Mastra({
     companyEvaluationAgent,
     knowledgeAgent,
     budgetCalculationAgent,
-    webSearchAgent
+    webSearchAgent,
+    mockAgent
   },
   networks: {
     renovationNetwork

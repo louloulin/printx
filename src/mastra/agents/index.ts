@@ -9,6 +9,7 @@ import { companyEvaluationAgent } from './companyEvaluationAgent';
 import { knowledgeAgent } from './knowledgeAgent';
 import { budgetCalculationAgent } from './budgetCalculationAgent';
 import { webSearchAgent } from './webSearchAgent';
+import { mockAgent } from './mockAgent';
 
 // 创建天气代理
 export const weatherAgent = new Agent({
@@ -35,5 +36,6 @@ export {
   companyEvaluationAgent,
   knowledgeAgent,
   budgetCalculationAgent,
-  webSearchAgent
+  webSearchAgent,
+  mockAgent
 };
