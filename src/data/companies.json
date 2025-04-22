@@ -1,0 +1,164 @@
+{
+  "companies": [
+    {
+      "id": "1",
+      "name": "北京家装一号",
+      "location": "北京",
+      "specializations": ["全屋装修", "厨房", "卫生间"],
+      "priceRange": "中高端",
+      "yearsInBusiness": 15,
+      "certifications": ["ISO9001", "中国室内装饰协会认证"],
+      "contactInfo": {
+        "phone": "010-12345678",
+        "email": "contact@jiazhuang1.com",
+        "website": "https://www.jiazhuang1.com"
+      },
+      "rating": 4.7,
+      "reviewCount": 1250
+    },
+    {
+      "id": "2",
+      "name": "上海装饰设计",
+      "location": "上海",
+      "specializations": ["全屋装修", "别墅装修", "办公空间"],
+      "priceRange": "高端",
+      "yearsInBusiness": 20,
+      "certifications": ["ISO9001", "中国室内装饰协会认证", "上海市装饰行业协会会员"],
+      "contactInfo": {
+        "phone": "021-87654321",
+        "email": "info@shzssj.com",
+        "website": "https://www.shzssj.com"
+      },
+      "rating": 4.9,
+      "reviewCount": 980
+    },
+    {
+      "id": "3",
+      "name": "广州家居美",
+      "location": "广州",
+      "specializations": ["全屋装修", "小户型改造", "旧房翻新"],
+      "priceRange": "中端",
+      "yearsInBusiness": 12,
+      "certifications": ["广东省装饰行业协会会员"],
+      "contactInfo": {
+        "phone": "020-56781234",
+        "email": "service@gzjjm.com",
+        "website": "https://www.gzjjm.com"
+      },
+      "rating": 4.5,
+      "reviewCount": 820
+    },
+    {
+      "id": "4",
+      "name": "深圳现代家装",
+      "location": "深圳",
+      "specializations": ["全屋装修", "智能家居", "工业风格"],
+      "priceRange": "中高端",
+      "yearsInBusiness": 10,
+      "certifications": ["ISO9001", "深圳市装饰行业协会会员"],
+      "contactInfo": {
+        "phone": "0755-98765432",
+        "email": "info@szxdjz.com",
+        "website": "https://www.szxdjz.com"
+      },
+      "rating": 4.6,
+      "reviewCount": 650
+    },
+    {
+      "id": "5",
+      "name": "成都家装天下",
+      "location": "成都",
+      "specializations": ["全屋装修", "中式风格", "复古风格"],
+      "priceRange": "中端",
+      "yearsInBusiness": 8,
+      "certifications": ["四川省装饰行业协会会员"],
+      "contactInfo": {
+        "phone": "028-45678901",
+        "email": "service@cdjztx.com",
+        "website": "https://www.cdjztx.com"
+      },
+      "rating": 4.4,
+      "reviewCount": 520
+    },
+    {
+      "id": "6",
+      "name": "杭州品质装饰",
+      "location": "杭州",
+      "specializations": ["全屋装修", "北欧风格", "日式风格"],
+      "priceRange": "中高端",
+      "yearsInBusiness": 13,
+      "certifications": ["ISO9001", "浙江省装饰行业协会会员"],
+      "contactInfo": {
+        "phone": "0571-23456789",
+        "email": "contact@hzpzzs.com",
+        "website": "https://www.hzpzzs.com"
+      },
+      "rating": 4.8,
+      "reviewCount": 780
+    },
+    {
+      "id": "7",
+      "name": "重庆家装先锋",
+      "location": "重庆",
+      "specializations": ["全屋装修", "美式风格", "地中海风格"],
+      "priceRange": "中端",
+      "yearsInBusiness": 9,
+      "certifications": ["重庆市装饰行业协会会员"],
+      "contactInfo": {
+        "phone": "023-34567890",
+        "email": "info@cqjzxf.com",
+        "website": "https://www.cqjzxf.com"
+      },
+      "rating": 4.3,
+      "reviewCount": 420
+    },
+    {
+      "id": "8",
+      "name": "武汉家装大师",
+      "location": "武汉",
+      "specializations": ["全屋装修", "现代简约", "轻奢风格"],
+      "priceRange": "中高端",
+      "yearsInBusiness": 11,
+      "certifications": ["ISO9001", "湖北省装饰行业协会会员"],
+      "contactInfo": {
+        "phone": "027-45678123",
+        "email": "master@whjzds.com",
+        "website": "https://www.whjzds.com"
+      },
+      "rating": 4.7,
+      "reviewCount": 590
+    },
+    {
+      "id": "9",
+      "name": "南京装饰艺术",
+      "location": "南京",
+      "specializations": ["全屋装修", "新中式", "欧式古典"],
+      "priceRange": "高端",
+      "yearsInBusiness": 18,
+      "certifications": ["ISO9001", "江苏省装饰行业协会会员"],
+      "contactInfo": {
+        "phone": "025-56781234",
+        "email": "art@njzsys.com",
+        "website": "https://www.njzsys.com"
+      },
+      "rating": 4.9,
+      "reviewCount": 720
+    },
+    {
+      "id": "10",
+      "name": "天津家装汇",
+      "location": "天津",
+      "specializations": ["全屋装修", "北欧风格", "工业风格"],
+      "priceRange": "中端",
+      "yearsInBusiness": 7,
+      "certifications": ["天津市装饰行业协会会员"],
+      "contactInfo": {
+        "phone": "022-67891234",
+        "email": "info@tjjzh.com",
+        "website": "https://www.tjjzh.com"
+      },
+      "rating": 4.2,
+      "reviewCount": 380
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "materials": [
+    {
+      "category": "地板",
+      "items": [
+        {
+          "name": "实木地板",
+          "description": "由天然木材制成，质感好，保温性好",
+          "priceRange": {
+            "budget": "200-300元/平方米",
+            "medium": "300-600元/平方米",
+            "high": "600-1500元/平方米"
+          },
+          "durability": "15-20年",
+          "maintenance": "高",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "强化复合地板",
+          "description": "由多层材料压制而成，防水性好，耐磨",
+          "priceRange": {
+            "budget": "80-150元/平方米",
+            "medium": "150-300元/平方米",
+            "high": "300-500元/平方米"
+          },
+          "durability": "8-12年",
+          "maintenance": "低",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "实木复合地板",
+          "description": "表层为实木，下层为其他材料，稳定性好",
+          "priceRange": {
+            "budget": "150-250元/平方米",
+            "medium": "250-450元/平方米",
+            "high": "450-800元/平方米"
+          },
+          "durability": "10-15年",
+          "maintenance": "中等",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "瓷砖",
+          "description": "耐磨防水，适合厨卫等湿润区域",
+          "priceRange": {
+            "budget": "60-150元/平方米",
+            "medium": "150-300元/平方米",
+            "high": "300-1000元/平方米"
+          },
+          "durability": "20-30年",
+          "maintenance": "低",
+          "environmentalImpact": "低"
+        }
+      ]
+    },
+    {
+      "category": "墙面",
+      "items": [
+        {
+          "name": "乳胶漆",
+          "description": "常见墙面涂料，色彩丰富，施工简单",
+          "priceRange": {
+            "budget": "20-40元/平方米",
+            "medium": "40-80元/平方米",
+            "high": "80-150元/平方米"
+          },
+          "durability": "5-8年",
+          "maintenance": "中等",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "壁纸",
+          "description": "图案丰富，施工快速，可营造不同风格",
+          "priceRange": {
+            "budget": "30-60元/平方米",
+            "medium": "60-120元/平方米",
+            "high": "120-300元/平方米"
+          },
+          "durability": "5-10年",
+          "maintenance": "中等",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "硅藻泥",
+          "description": "环保材料，具有吸附甲醛等有害气体的功能",
+          "priceRange": {
+            "budget": "100-180元/平方米",
+            "medium": "180-300元/平方米",
+            "high": "300-500元/平方米"
+          },
+          "durability": "8-15年",
+          "maintenance": "低",
+          "environmentalImpact": "低"
+        },
+        {
+          "name": "墙面瓷砖",
+          "description": "适合厨卫等区域，防水防油",
+          "priceRange": {
+            "budget": "60-150元/平方米",
+            "medium": "150-300元/平方米",
+            "high": "300-800元/平方米"
+          },
+          "durability": "20-30年",
+          "maintenance": "低",
+          "environmentalImpact": "低"
+        }
+      ]
+    },
+    {
+      "category": "厨房",
+      "items": [
+        {
+          "name": "整体橱柜",
+          "description": "包含柜体、台面、五金配件等",
+          "priceRange": {
+            "budget": "1000-2000元/延米",
+            "medium": "2000-4000元/延米",
+            "high": "4000-10000元/延米"
+          },
+          "durability": "10-15年",
+          "maintenance": "中等",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "厨房台面",
+          "description": "常见材质有石英石、大理石、不锈钢等",
+          "priceRange": {
+            "budget": "300-600元/延米",
+            "medium": "600-1200元/延米",
+            "high": "1200-3000元/延米"
+          },
+          "durability": "10-20年",
+          "maintenance": "中等",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "厨房水槽",
+          "description": "常见材质有不锈钢、花岗岩、陶瓷等",
+          "priceRange": {
+            "budget": "300-800元/个",
+            "medium": "800-2000元/个",
+            "high": "2000-5000元/个"
+          },
+          "durability": "10-15年",
+          "maintenance": "中等",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "厨房龙头",
+          "description": "常见材质有铜质、不锈钢等",
+          "priceRange": {
+            "budget": "200-500元/个",
+            "medium": "500-1500元/个",
+            "high": "1500-5000元/个"
+          },
+          "durability": "8-12年",
+          "maintenance": "低",
+          "environmentalImpact": "低"
+        }
+      ]
+    },
+    {
+      "category": "卫浴",
+      "items": [
+        {
+          "name": "马桶",
+          "description": "常见类型有连体、分体、智能等",
+          "priceRange": {
+            "budget": "500-1000元/个",
+            "medium": "1000-3000元/个",
+            "high": "3000-10000元/个"
+          },
+          "durability": "10-20年",
+          "maintenance": "中等",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "淋浴设备",
+          "description": "包括花洒、淋浴房等",
+          "priceRange": {
+            "budget": "500-1500元/套",
+            "medium": "1500-4000元/套",
+            "high": "4000-15000元/套"
+          },
+          "durability": "8-15年",
+          "maintenance": "中等",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "浴室柜",
+          "description": "包括柜体、台面、镜子等",
+          "priceRange": {
+            "budget": "800-2000元/套",
+            "medium": "2000-5000元/套",
+            "high": "5000-20000元/套"
+          },
+          "durability": "8-15年",
+          "maintenance": "中等",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "浴缸",
+          "description": "常见材质有亚克力、铸铁等",
+          "priceRange": {
+            "budget": "1000-3000元/个",
+            "medium": "3000-8000元/个",
+            "high": "8000-30000元/个"
+          },
+          "durability": "10-20年",
+          "maintenance": "中等",
+          "environmentalImpact": "中等"
+        }
+      ]
+    },
+    {
+      "category": "门窗",
+      "items": [
+        {
+          "name": "实木门",
+          "description": "由天然木材制成，质感好，隔音效果好",
+          "priceRange": {
+            "budget": "800-1500元/樘",
+            "medium": "1500-3000元/樘",
+            "high": "3000-8000元/樘"
+          },
+          "durability": "15-20年",
+          "maintenance": "高",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "复合门",
+          "description": "由多种材料组合而成，性价比高",
+          "priceRange": {
+            "budget": "500-1000元/樘",
+            "medium": "1000-2000元/樘",
+            "high": "2000-4000元/樘"
+          },
+          "durability": "10-15年",
+          "maintenance": "中等",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "铝合金窗",
+          "description": "轻便耐用，防水性好",
+          "priceRange": {
+            "budget": "300-600元/平方米",
+            "medium": "600-1200元/平方米",
+            "high": "1200-2500元/平方米"
+          },
+          "durability": "15-25年",
+          "maintenance": "低",
+          "environmentalImpact": "中等"
+        },
+        {
+          "name": "断桥铝窗",
+          "description": "隔热性能好，适合北方地区",
+          "priceRange": {
+            "budget": "600-1000元/平方米",
+            "medium": "1000-1800元/平方米",
+            "high": "1800-3500元/平方米"
+          },
+          "durability": "20-30年",
+          "maintenance": "低",
+          "environmentalImpact": "低"
+        }
+      ]
+    }
+  ]
+}
