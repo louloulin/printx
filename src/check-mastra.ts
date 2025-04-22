@@ -1,4 +1,4 @@
-import { mastra } from './mastra/index';
+import { mastra } from './mastra';
 
 // 检查mastra对象
 console.log('Mastra对象类型:', typeof mastra);
@@ -7,18 +7,31 @@ console.log('Mastra详细信息:', mastra);
 
 // 检查agents
 console.log('\n代理信息:');
-if (mastra.agents) {
-  console.log('可用代理:', Object.keys(mastra.agents));
-} else {
-  console.log('没有找到代理');
+try {
+  const weatherAgent = mastra.getAgent('weatherAgent');
+  const companyRecommendationAgent = mastra.getAgent('companyRecommendationAgent');
+  const companyEvaluationAgent = mastra.getAgent('companyEvaluationAgent');
+  const knowledgeAgent = mastra.getAgent('knowledgeAgent');
+  const budgetCalculationAgent = mastra.getAgent('budgetCalculationAgent');
+  const webSearchAgent = mastra.getAgent('webSearchAgent');
+
+  console.log('weatherAgent:', weatherAgent ? '已加载' : '未加载');
+  console.log('companyRecommendationAgent:', companyRecommendationAgent ? '已加载' : '未加载');
+  console.log('companyEvaluationAgent:', companyEvaluationAgent ? '已加载' : '未加载');
+  console.log('knowledgeAgent:', knowledgeAgent ? '已加载' : '未加载');
+  console.log('budgetCalculationAgent:', budgetCalculationAgent ? '已加载' : '未加载');
+  console.log('webSearchAgent:', webSearchAgent ? '已加载' : '未加载');
+} catch (error) {
+  console.error('获取代理失败:', error);
 }
 
 // 检查networks
 console.log('\n网络信息:');
-if (mastra.networks) {
-  console.log('可用网络:', Object.keys(mastra.networks));
-} else {
-  console.log('没有找到网络');
+try {
+  const renovationNetwork = mastra.getNetwork('renovationNetwork');
+  console.log('renovationNetwork:', renovationNetwork ? '已加载' : '未加载');
+} catch (error) {
+  console.error('获取网络失败:', error);
 }
 
 // 检查方法

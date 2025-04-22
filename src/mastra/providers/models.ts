@@ -8,7 +8,7 @@ interface ModelProviderConfig {
 
 // Default configuration
 const defaultConfig: ModelProviderConfig = {
-  apiKey: process.env.QWEN_API_KEY || "sk-bc977c4e31e542f1a34159cb42478198",
+  apiKey: process.env.QWEN_API_KEY ,
   baseURL: 'https://dashscope.aliyuncs.com/compatible-mode/v1',
 };
 
